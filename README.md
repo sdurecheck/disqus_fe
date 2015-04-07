@@ -23,28 +23,28 @@ grunt build
 
 Dependencies:
 
- # Reactive.js - http://www.ractivejs.org/
- # Material Design Bootstrap - https://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html
+* Reactive.js - http://www.ractivejs.org/
+* Material Design Bootstrap - https://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html
 
 See more in `package.json`.
 
 Resources:
 
- # https://developer.chrome.com/extensions
- # https://developer.chrome.com/extensions/api_index
- # https://developer.chrome.com/extensions/tabs
- # https://developer.chrome.com/extensions/windows
- # https://developer.chrome.com/extensions/browserAction
- # https://developer.chrome.com/extensions/identity
- # http://gruntjs.com/
- # http://yeoman.io/
- # https://github.com/yeoman/generator-chrome-extension
- # http://bower.io/
- # https://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html
+* https://developer.chrome.com/extensions
+* https://developer.chrome.com/extensions/api_index
+* https://developer.chrome.com/extensions/tabs
+* https://developer.chrome.com/extensions/windows
+* https://developer.chrome.com/extensions/browserAction
+* https://developer.chrome.com/extensions/identity
+* http://gruntjs.com/
+* http://yeoman.io/
+* https://github.com/yeoman/generator-chrome-extension
+* http://bower.io/
+* https://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html
 
 Issues:
 
- # Ractive is not CSP (https://developer.chrome.com/apps/contentSecurityPolicy) complient. Some functionality of Ractive is not working in Chrome. Consider using something else
+* Ractive is not CSP (https://developer.chrome.com/apps/contentSecurityPolicy) complient. Some functionality of Ractive is not working in Chrome. Consider using something else
 
 
 ## Requirements:
