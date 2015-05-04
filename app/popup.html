@@ -29,21 +29,23 @@
 
   <!-- build:js scripts/popup.js -->
   <script src="scripts/popup.js"></script>
+  <script src="scripts/backend.js"></script>  
+  <script src="scripts/md5-min.js"></script>    
   <!-- endbuild -->
 
   <div class="container-fluid">
-    <div class="form-group">
-      <h4>Who are you?</h4>
-      <input class="form-control" type="email" placeholder="ok@gmail.com"/>    
-      <input class="form-control" type="text" placeholder="Ok"/>
+    <div class="box-sh">
+      <div class="green-panel"><h4 style="font-color:#fff">Who are you?</h4></div>
+      <input class="form-control" type="email" placeholder="ok@gmail.com" id="email"/>    
+      <input class="form-control" type="text" placeholder="Ok" id="name"/>
     </div>
-    <div id="comments">
-      <input type="text" id="comment"/>
-      <input type="submit" id="add"/>
+    <div id="comments" class="box-sh">
+      <div class="green-panel"><h4 style="font-color:#fff">Comments</h4></div>
+    </div>
+    <div class="form-horizontal">
+      <input type="text" id="comment" class="form-control" placeholder="Your Comment">
+      <button type="submit" id="add" class="btn btn-primary">Send</button>
     </div>
   </div>  
-
-  <div id="results">
-  </div>
   </body>
 </html>
