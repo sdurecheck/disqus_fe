@@ -11,6 +11,7 @@
   <!-- endbuild -->
   <!-- build:css styles/main.css -->
   <link href="styles/main.css" rel="stylesheet">
+
   <!-- endbuild -->
   </head>
   <body>
@@ -22,12 +23,27 @@
   <script src="bower_components/reactive/ractive.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
   <script src="bower_components/bootstrap-material-design/dist/js/material.js"></script>
-  <script src="bower_components/bootstrap-material-design/dist/js/ripples.js"></script>
+  <script src="bower_components/bootstrap-material-design/dist/js/ripples.js"></script>  
   <!-- endbower -->
   <!-- endbuild -->
 
   <!-- build:js scripts/popup.js -->
   <script src="scripts/popup.js"></script>
   <!-- endbuild -->
+
+  <div class="container-fluid">
+    <div class="form-group">
+      <h4>Who are you?</h4>
+      <input class="form-control" type="email" placeholder="ok@gmail.com"/>    
+      <input class="form-control" type="text" placeholder="Ok"/>
+    </div>
+    <div id="comments">
+      <input type="text" id="comment"/>
+      <input type="submit" id="add"/>
+    </div>
+  </div>  
+
+  <div id="results">
+  </div>
   </body>
 </html>
